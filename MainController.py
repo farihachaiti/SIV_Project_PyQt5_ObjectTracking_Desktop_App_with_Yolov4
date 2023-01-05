@@ -93,14 +93,17 @@ def main():
     else:
         plotFileName = "./outputs/" + folderName + "/" + "info.txt"
      
-    window.sendParams(cmd1, cmd2, app, finalFileName, plotFileName, player, plot)
-
     player.setFixedSize(1024, 664)
     ui.setupUi(Frame, player, window, plot)
+    
+    window.sendParams(cmd1, cmd2, app, finalFileName, plotFileName, player, plot, pathName)
+
+
     window.show()
     player.show()
     Frame.show()  
     plot.show()
+    
 
     app.exec_()
     

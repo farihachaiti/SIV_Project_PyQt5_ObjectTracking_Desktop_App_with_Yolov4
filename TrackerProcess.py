@@ -134,14 +134,13 @@ class MainWindow(QMainWindow):
         self.message("Process finished.")
         self.p = None   
         if os.path.exists(fileName):
-            VPlayer.resize(1024, 864)
             VPlayer.playButton.setEnabled(True)
             VPlayer.stopButton.setEnabled(True)
             VPlayer.playButton.setEnabled(True)
             VPlayer.playVideoFile(fileName)
             VPlayer.show()
         if os.path.exists(plotFilename):
-            Plot.sendFilePath(plotFilename)
+            Plot.sendFilePath(plotFilename, pathName)
             Plot.btn_plot.setEnabled(True)
             Plot.show()
         
@@ -158,8 +157,8 @@ class MainWindow(QMainWindow):
         
         
 
-    def sendParams(self, cmd1, cmd2, a, f, p, player, plt):
-        global command1, command2, app, fileName, VPlayer, Plot, plotFilename
+    def sendParams(self, cmd1, cmd2, a, f, p, player, plt, pname):
+        global command1, command2, app, fileName, VPlayer, Plot, plotFilename, pathName
         command1 = cmd1
         if self.path:
                 command2 = "python object_tracker.py --video" + " " + self.path + " " + "--output"  + " " + fileName + " " + "--model yolov4 --dont_show --count --info"
@@ -170,3 +169,4 @@ class MainWindow(QMainWindow):
         plotFilename = p
         VPlayer = player
         Plot = plt
+        pathName = pname
