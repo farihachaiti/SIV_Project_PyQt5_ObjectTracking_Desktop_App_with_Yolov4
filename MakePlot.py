@@ -47,7 +47,7 @@ class Window2(QtWidgets.QMainWindow):                           # <===
         # save to file
         exporter = pg.exporters.ImageExporter( self.graphWidget.scene() )
         exporter.parameters()['width'] = 2000   # (note this also affects height parameter)
-        exporter.export("./outputs/1output/" + 'trajectory.png')
+        exporter.export(filePath + 'trajectory.png')
 
 
 
