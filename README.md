@@ -91,5 +91,5 @@ Output folder
 
 Info.txt
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/blob/image8.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image8.png?raw=true)
 
