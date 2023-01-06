@@ -1,4 +1,4 @@
-# siv_project
+# Signal, Image and Video Project (Python)
  Python PyQt5 Object Tracking Project with yolov4
 
 
