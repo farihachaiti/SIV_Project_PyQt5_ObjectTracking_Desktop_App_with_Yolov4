@@ -5,7 +5,7 @@
 User Interface:
 
 Initialization
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image.png?raw=true)
 
 
 
@@ -16,7 +16,7 @@ Initialization
 Process 1 running
 
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image2.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image2.png?raw=true)
 
 
 
@@ -27,7 +27,7 @@ Process 1 running
 Process 2 running
 
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image3.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image3.png?raw=true)
 
 
 
@@ -37,7 +37,7 @@ Process 2 running
 Output Video
 
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image4.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image4.png?raw=true)
 
 
 
@@ -50,7 +50,7 @@ Trajectory
 
 
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image5.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image5.png?raw=true)
 
 
 
@@ -70,7 +70,7 @@ Trajectory
 
 
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image6.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image6.png?raw=true)
 
 
 
@@ -82,7 +82,7 @@ Trajectory
 Output folder
 
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image7.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/blob/main/image7.png?raw=true)
 
 
 
@@ -91,5 +91,5 @@ Output folder
 
 Info.txt
 
-![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/image8.png?raw=true)
+![alt text](https://github.com/farihachaiti/SIV_Project_PyQt5_ObjectTracking_Desktop_App_with_Yolov4/main/blob/image8.png?raw=true)
 
