@@ -1,8 +1,8 @@
 import PyQt5
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QPushButton, QPlainTextEdit,
-                                QHBoxLayout, QWidget, QProgressBar)
-from PyQt5.QtCore import QProcess, QTimer
+                                QHBoxLayout, QWidget, QProgressBar, QFileDialog)
+from PyQt5.QtCore import QDir, QProcess, QTimer
 import sys
 import re
 import os
@@ -61,7 +61,8 @@ class MainWindow(QMainWindow):
         
 
     def open(self):
-        self.path = PyQt5.QtWidgets.QFileDialog.getOpenFileName(self)[0]
+        filter = "mp4(*.mp4)"
+        self.path = PyQt5.QtWidgets.QFileDialog.getOpenFileName(self, "Open Video File", QDir.homePath(), filter)[0]
         if self.path:
             self.command2 = "python object_tracker.py --video" + " " + self.path + " " + "--output"  + " " + fileName + " " + "--model yolov4 --dont_show --count --info"
         print(command2)
