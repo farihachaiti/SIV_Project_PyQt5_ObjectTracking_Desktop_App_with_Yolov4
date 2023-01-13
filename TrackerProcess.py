@@ -151,7 +151,7 @@ class MainWindow(QMainWindow):
         for i in range(101):
   
             # slowing down the loop
-            time.sleep(1.0)
+            time.sleep(0.1)
   
             # setting value to progress bar
             self.progress_bar.setValue(i)
